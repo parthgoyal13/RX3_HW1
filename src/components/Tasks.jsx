@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 
 const Tasks = () => {
   const tasksPerDay = useSelector((state) => {
-    // console.log(state.tasks.tasksPerday);
+    console.log(state.tasks.tasksPerday);
     return state.tasks.tasksPerday;
   });
   return (
